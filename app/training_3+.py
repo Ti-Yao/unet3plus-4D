@@ -2,20 +2,28 @@ from losses import *
 from layer_util_4D import *
 from training_utils import *
 from unet3plus_4D import *
+import os 
+import cv2
 
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
+os.environ["VECLIB_MAXIMUM_THREADS"] = "1"
+os.environ["NUMEXPR_NUM_THREADS"] = "1"
 
-    
-
+# Disable OpenCV multithreading and OpenCL
+cv2.setNumThreads(0)
+cv2.ocl.setUseOpenCL(False)
 
 
 def main():
-    continue_training = 0
-    data_path = 'resources/clean'
+    continue_training = 1
+    data_path = 'resources/voxel'
     debug = 0
 
-    evaluate_only = 0
+    evaluate_only = 1
 
-    model_name = '4DSEG-31'
+    model_name = '4DSEG-72'
 
     if continue_training:
         run = neptune.init_run(    
@@ -62,15 +70,19 @@ def main():
                               cohort = 'val', 
                               data_path = data_path).get_gen
 
-    output_types = (tf.float32,tf.uint8)
 
-    train_ds = tf.data.Dataset.from_generator(train_gen, output_types=output_types)
-    val_ds = tf.data.Dataset.from_generator(val_gen, output_types=output_types)
+    output_signature = (
+        tf.TensorSpec(shape=(32, None, 128, 128, 1), dtype=tf.float32),   # Image
+        tf.TensorSpec(shape=(32, None, 128, 128, 3), dtype=tf.uint8)    # Mask
+    )
+
+    train_ds = tf.data.Dataset.from_generator(train_gen, output_signature=output_signature)
+    val_ds = tf.data.Dataset.from_generator(val_gen, output_signature=output_signature)
 
 
     BATCH_SIZE = 1
-    train_ds = train_ds.shuffle(int(len(train_patients)/10), seed = 42, reshuffle_each_iteration=True).batch(BATCH_SIZE).prefetch(-1)
-    val_ds = val_ds.batch(BATCH_SIZE).prefetch(-1)
+    train_ds = train_ds.shuffle(int(len(train_patients)/5), seed = 42, reshuffle_each_iteration=True).batch(BATCH_SIZE).prefetch(tf.data.AUTOTUNE)
+    val_ds = val_ds.batch(BATCH_SIZE).prefetch(tf.data.AUTOTUNE)
 
     X, y = next(iter(train_ds))
 
@@ -83,7 +95,9 @@ def main():
 
     model.summary()
 
-    model.compile(loss = focal_tversky_loss, optimizer=tf.keras.optimizers.Adam())#,  loss_weights= [1/6,1/6,1/6,1/2])
+    model.compile(loss = focal_tversky_loss,
+                  optimizer=tf.keras.optimizers.Adam(),  
+                  loss_weights= [1/6,1/6,1/6,1/2])
 
 
     es = EarlyStopping(monitor='loss', 
@@ -101,17 +115,17 @@ def main():
                                     all_patients = all_patients, 
                                     run = run, 
                                     data_path = data_path,
-                                    output_types = output_types,
+                                    output_signature = output_signature,
                                     save_every = 10)
-    memory_callback = MemoryCallback()
+    
     if evaluate_only:
-        evaluate(model_name, all_patients, run, data_path, output_types)
+        evaluate(model_name, all_patients, run, data_path, output_signature)
     else:
         print('Training model...')
         model.fit(train_ds,
                 validation_data = val_ds, 
                 epochs=1 if debug else 500,
-                callbacks=[es, mc,eval_every_epoch,neptune_callback,memory_callback])
+                callbacks=[es, mc,eval_every_epoch,neptune_callback])
 
 
     

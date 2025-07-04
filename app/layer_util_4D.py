@@ -18,7 +18,7 @@ import tensorflow as tf
 from array_ops import resize_with_crop_or_pad
 
 from tensorflow.keras import layers, models
-from tensorflow.keras.layers import (Conv1D, Conv3D, MaxPooling3D, UpSampling3D, TimeDistributed, Lambda)
+from tensorflow.keras.layers import (Conv1D, Conv3D, MaxPooling1D, MaxPooling3D, UpSampling1D, UpSampling3D, TimeDistributed, Lambda)
 import tensorflow as tf
 
 
@@ -113,10 +113,17 @@ class MaxPool4D(layers.Layer):
                  
         super().__init__()
         self.pool_size = pool_size
-        self.pool3d = TimeDistributed(MaxPooling3D(pool_size))
+        self.pool3d = TimeDistributed(MaxPooling3D(pool_size = pool_size[1:]))
+        self.time_pool = (pool_size[0],)
+
+        self.pool1d = Multi_TimeDistributed(MaxPooling1D(pool_size = self.time_pool), iter=3)
 
     def call(self, inputs):
         p = self.pool3d(inputs)
+        if self.time_pool[0] > 1:
+          p = Transpose((0, 2, 3, 4, 1, 5))(p)
+          p = self.pool1d(p)
+          p = Transpose((0, 4, 1, 2, 3, 5))(p)
         return p
 
 
@@ -135,10 +142,16 @@ class UpSampling4D(layers.Layer):
         super().__init__()
         self.size = size
 
-        self.upsample3d = TimeDistributed(UpSampling3D(size))
+        self.upsample3d = TimeDistributed(UpSampling3D(size = size[1:]))
+        self.time_size = size[0]
+        self.upsample1d = Multi_TimeDistributed(UpSampling1D(size = self.time_size), iter=3)
 
     def call(self, inputs):
         x = self.upsample3d(inputs)
+        if self.time_size > 1:
+          x = Transpose((0, 2, 3, 4, 1, 5))(x)
+          x = self.upsample1d(x)
+          x = Transpose((0, 4, 1, 2, 3, 5))(x)
         return x
     
     def get_config(self):

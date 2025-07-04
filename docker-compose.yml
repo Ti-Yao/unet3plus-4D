@@ -10,4 +10,4 @@ services:
     volumes:
       - "/media/condor_datasets/tina:/app/resources"
       - "/home/tina/condor_jobs/slot1//4D/app:/app"
-    command: python /app/training_3+time.py
+    command: python /app/training_3+.py

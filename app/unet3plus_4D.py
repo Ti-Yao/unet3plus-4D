@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 # Import custom modules
-import layer_util_4D 
+import layer_util_4D_time
 
 tf.random.set_seed(489154)
 
@@ -27,7 +27,7 @@ class unet3plus:
                 kernel_size = 3,
                 out_kernel_size = 3,
                 pool_size = 2,
-                encoder_block_depth = 1,
+                encoder_block_depth = 2,
                 decoder_block_depth = 1,
                 batch_norm = True,
                 activation = 'relu',
@@ -118,7 +118,7 @@ class unet3plus:
         input_list: List of inputs to the decoder to be aggregated.
         level: Current decoder level.
     """
-    X = layer_util_4D.ResizeAndConcatenate(name = f'D{level}_input', axis = -1)(input_list) # Takes the various inputs to a decoder level, resizes them to the 1st input size in the list and the concatenates them all.
+    X = layer_util_4D_time.ResizeAndConcatenate(name = f'D{level}_input', axis = -1)(input_list) # Takes the various inputs to a decoder level, resizes them to the 1st input size in the list and the concatenates them all.
     X = self.conv_block(X, self.filters[level-1], block_depth = self.decoder_block_depth, conv_block_purpose = 'Decoder', level=level) # Performs a decoder block convolution of the concatenated input (i.e. the concatenated list of filters)
     return X
    
@@ -132,8 +132,8 @@ class unet3plus:
         inputs: Input tensor.
         level: Current decoder level.
     """
-    conv = layer_util_4D.get_nd_layer('Conv', self.rank) # gets a convolutional layer of the specified rank (2D or 3D)
-    upsamp = layer_util_4D.get_nd_layer('UpSampling', self.rank) # gets an upsampling layer of the specified rank (2D or 3D)
+    conv = layer_util_4D_time.get_nd_layer('Conv', self.rank) # gets a convolutional layer of the specified rank (2D or 3D)
+    upsamp = layer_util_4D_time.get_nd_layer('UpSampling', self.rank) # gets an upsampling layer of the specified rank (2D or 3D)
     size = tuple(np.array(self.pool_size)** (abs(level-1))) # This specifies the amount of upsampling needed to get to the correct final output size. It is the maxpool size to the power of the current decoder level minus one.
     if self.rank == 2:
         upsamp_config = dict(size=size, interpolation='bilinear') # use bilinear interpolation for 2D upsampling
@@ -159,11 +159,11 @@ class unet3plus:
         to_level: Current decoder level.
         from_level: Level of UNet the input tensor is from.    
     """
-    conv = layer_util_4D.get_nd_layer('Conv', self.rank) # gets a convolutional layer of the specified rank (2D or 3D)
+    conv = layer_util_4D_time.get_nd_layer('Conv', self.rank) # gets a convolutional layer of the specified rank (2D or 3D)
     level_diff = from_level - to_level  # difference between level of decoder and level of UNet the input tensor is from
     size = tuple(np.array(self.pool_size)** (abs(level_diff))) # This specifies the amount of upsampling needed to get to the correct size for decoder level. It is the maxpool size to the power of the level difference.
-    maxpool = layer_util_4D.get_nd_layer('MaxPool', self.rank) # gets a maxpool layer of the specified rank (2D or 3D)
-    upsamp = layer_util_4D.get_nd_layer('UpSampling', self.rank) # gets an upsampling layer of the specified rank (2D or 3D)
+    maxpool = layer_util_4D_time.get_nd_layer('MaxPool', self.rank) # gets a maxpool layer of the specified rank (2D or 3D)
+    upsamp = layer_util_4D_time.get_nd_layer('UpSampling', self.rank) # gets an upsampling layer of the specified rank (2D or 3D)
     if self.rank == 2:
         upsamp_config = dict(size=size, interpolation='bilinear') # use bilinear interpolation for 2D upsampling
     else:
@@ -192,7 +192,7 @@ class unet3plus:
                 conv_block_purpose: Type of conv block (Encoder, Decoder, Skip).
                 level: Current level level.
        """
-       conv = layer_util_4D.get_nd_layer('Conv', self.rank) # gets a convolutional layer of the specified rank (2D or 3D)
+       conv = layer_util_4D_time.get_nd_layer('Conv', self.rank) # gets a convolutional layer of the specified rank (2D or 3D)
        X = inputs
        for i in range(block_depth): # replicate the conv block, depth number of times
            X = conv(filters, **self.conv_config, name = f'{conv_block_purpose}{level}_Conv_{i+1}')(X) # applies conv layer to the input tensor
@@ -212,7 +212,7 @@ class unet3plus:
                 level: Current level level.
                 block_depth: Number of convolutional stacks in the block.
        """
-       maxpool = layer_util_4D.get_nd_layer('MaxPool', self.rank) # gets a maxpool layer of the specified rank (2D or 3D)
+       maxpool = layer_util_4D_time.get_nd_layer('MaxPool', self.rank) # gets a maxpool layer of the specified rank (2D or 3D)
        level -= 1 # python indexing
        filters = self.filters[level] # get the number of filters for the current level
        X = inputs
@@ -270,23 +270,23 @@ class unet3plus:
        
 def build_unet3plus_4D(input_shape, num_classes):
 
-    input_shape = [32, None, 128,128,1]
-    output_shape = [32, None, 128,128,num_classes]
+    input_shape =  [32, None, 128, 128, 1]
+    output_shape = [32, None, 128, 128, num_classes]
 
     inputs = tf.keras.Input(shape = input_shape)
     unet3 = unet3plus(inputs, 
-                    filters = [8, 16, 32, 64],
+                    filters = [12, 24, 48, 96],
                     rank = 4,
                     kernel_size= (3,3,3),
                     out_kernel_size = (1,1,1),
                     out_channels = num_classes,
                     kernel_initializer=tf.keras.initializers.HeNormal(seed=0),
-                    pool_size = (1,2,2),
+                    pool_size = (1,1,2,2),
                     batch_norm = True,
                     activation = 'LeakyReLU',
                     out_activation = 'softmax',
                     skip_type = 'encoder',
-                    deep_supervision=False) 
+                    deep_supervision=True) 
 
     model = tf.keras.Model(inputs = inputs, outputs = unet3.outputs())
     return model

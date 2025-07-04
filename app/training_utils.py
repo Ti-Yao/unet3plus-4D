@@ -23,7 +23,7 @@ import pandas as pd
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 import skimage
 # from volumentations import *
-from unet3plus_4D_time import *
+from unet3plus_4D import *
 import matplotlib.gridspec as gridspec
 import albumentations as A
 import nibabel as nib
