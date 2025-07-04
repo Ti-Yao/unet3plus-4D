@@ -1,0 +1,13 @@
+version: '3'
+services:
+  run_code:
+    container_name: 4D-SEG
+    runtime: nvidia
+    environment:
+    - NVIDIA_VISIBLE_DEVICES=0
+    build: .
+    working_dir: /app
+    volumes:
+      - "/media/condor_datasets/tina:/app/resources"
+      - "/home/tina/condor_jobs/slot1//4D/app:/app"
+    command: python /app/training_3+time.py

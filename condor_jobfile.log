@@ -1,0 +1,2475 @@
+000 (4652.000.000) 2025-06-30 17:16:57 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4652.000.000) 2025-06-30 17:16:58 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_16>
+...
+040 (4652.000.000) 2025-06-30 17:16:58 Finished transferring input files
+...
+001 (4652.000.000) 2025-06-30 17:16:59 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_180813"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4652.000.000) 2025-06-30 17:17:07 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	26872  -  ResidentSetSize of job (KB)
+...
+040 (4652.000.000) 2025-06-30 17:17:19 Started transferring output files
+...
+040 (4652.000.000) 2025-06-30 17:17:19 Finished transferring output files
+...
+005 (4652.000.000) 2025-06-30 17:17:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4385  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	4385  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35090    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       20                    
+	   TimeSlotBusy (s)     :       22                    
+
+	Job terminated of its own accord at 2025-06-30T16:17:19Z with exit-code 0.
+...
+000 (4653.000.000) 2025-06-30 17:25:23 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4653.000.000) 2025-06-30 17:25:24 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_17>
+...
+040 (4653.000.000) 2025-06-30 17:25:24 Finished transferring input files
+...
+001 (4653.000.000) 2025-06-30 17:25:25 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_182378"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4653.000.000) 2025-06-30 17:25:33 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	26984  -  ResidentSetSize of job (KB)
+...
+040 (4653.000.000) 2025-06-30 17:26:31 Started transferring output files
+...
+040 (4653.000.000) 2025-06-30 17:26:31 Finished transferring output files
+...
+005 (4653.000.000) 2025-06-30 17:26:31 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	179113  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	179113  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1        32 
+	   Disk (KB)            :    35255    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       66                    
+	   TimeSlotBusy (s)     :       68                    
+
+	Job terminated of its own accord at 2025-06-30T16:26:31Z with exit-code 0.
+...
+000 (4654.000.000) 2025-06-30 17:27:23 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4654.000.000) 2025-06-30 17:27:43 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_18>
+...
+040 (4654.000.000) 2025-06-30 17:27:44 Finished transferring input files
+...
+001 (4654.000.000) 2025-06-30 17:27:45 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_184046"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4654.000.000) 2025-06-30 17:27:53 Image size of job updated: 37500
+	25  -  MemoryUsage of job (MB)
+	25520  -  ResidentSetSize of job (KB)
+...
+040 (4654.000.000) 2025-06-30 17:29:24 Started transferring output files
+...
+040 (4654.000.000) 2025-06-30 17:29:24 Finished transferring output files
+...
+005 (4654.000.000) 2025-06-30 17:29:24 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5653  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	5653  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35092    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       25       37     64313 
+	   TimeExecute (s)      :       99                    
+	   TimeSlotBusy (s)     :      101                    
+
+	Job terminated of its own accord at 2025-06-30T16:29:24Z with exit-code 0.
+...
+000 (4655.000.000) 2025-06-30 17:32:02 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4655.000.000) 2025-06-30 17:32:03 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_19>
+...
+040 (4655.000.000) 2025-06-30 17:32:04 Finished transferring input files
+...
+001 (4655.000.000) 2025-06-30 17:32:05 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_185847"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4655.000.000) 2025-06-30 17:32:13 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27528  -  ResidentSetSize of job (KB)
+...
+040 (4655.000.000) 2025-06-30 17:34:07 Started transferring output files
+...
+040 (4655.000.000) 2025-06-30 17:34:07 Finished transferring output files
+...
+005 (4655.000.000) 2025-06-30 17:34:07 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4835  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	4835  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35091    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :      121                    
+	   TimeSlotBusy (s)     :      124                    
+
+	Job terminated of its own accord at 2025-06-30T16:34:07Z with exit-code 0.
+...
+000 (4656.000.000) 2025-06-30 17:38:02 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4656.000.000) 2025-06-30 17:38:02 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_20>
+...
+040 (4656.000.000) 2025-06-30 17:38:03 Finished transferring input files
+...
+001 (4656.000.000) 2025-06-30 17:38:04 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_188255"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4656.000.000) 2025-06-30 17:38:12 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27352  -  ResidentSetSize of job (KB)
+...
+040 (4656.000.000) 2025-06-30 17:38:47 Started transferring output files
+...
+040 (4656.000.000) 2025-06-30 17:38:47 Finished transferring output files
+...
+005 (4656.000.000) 2025-06-30 17:38:47 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13220  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	13220  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35099    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       43                    
+	   TimeSlotBusy (s)     :       45                    
+
+	Job terminated of its own accord at 2025-06-30T16:38:47Z with exit-code 0.
+...
+000 (4657.000.000) 2025-06-30 17:47:52 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4657.000.000) 2025-06-30 17:47:52 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_21>
+...
+040 (4657.000.000) 2025-06-30 17:47:52 Finished transferring input files
+...
+001 (4657.000.000) 2025-06-30 17:47:53 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_189960"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4657.000.000) 2025-06-30 17:48:02 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27092  -  ResidentSetSize of job (KB)
+...
+040 (4657.000.000) 2025-06-30 17:48:36 Started transferring output files
+...
+040 (4657.000.000) 2025-06-30 17:48:36 Finished transferring output files
+...
+005 (4657.000.000) 2025-06-30 17:48:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	11943  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	11943  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35098    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       43                    
+	   TimeSlotBusy (s)     :       44                    
+
+	Job terminated of its own accord at 2025-06-30T16:48:36Z with exit-code 0.
+...
+000 (4658.000.000) 2025-06-30 18:00:08 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4658.000.000) 2025-06-30 18:00:13 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_22>
+...
+040 (4658.000.000) 2025-06-30 18:00:13 Finished transferring input files
+...
+001 (4658.000.000) 2025-06-30 18:00:14 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_191876"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4658.000.000) 2025-06-30 18:00:22 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27132  -  ResidentSetSize of job (KB)
+...
+040 (4658.000.000) 2025-06-30 18:00:58 Started transferring output files
+...
+040 (4658.000.000) 2025-06-30 18:00:58 Finished transferring output files
+...
+005 (4658.000.000) 2025-06-30 18:00:58 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	16211  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	16211  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35102    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       44                    
+	   TimeSlotBusy (s)     :       45                    
+
+	Job terminated of its own accord at 2025-06-30T17:00:58Z with exit-code 0.
+...
+000 (4659.000.000) 2025-06-30 18:02:49 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4659.000.000) 2025-06-30 18:02:50 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_23>
+...
+040 (4659.000.000) 2025-06-30 18:02:50 Finished transferring input files
+...
+001 (4659.000.000) 2025-06-30 18:02:51 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_194090"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4659.000.000) 2025-06-30 18:02:59 Image size of job updated: 37500
+	26  -  MemoryUsage of job (MB)
+	25788  -  ResidentSetSize of job (KB)
+...
+040 (4659.000.000) 2025-06-30 18:04:53 Started transferring output files
+...
+040 (4659.000.000) 2025-06-30 18:04:53 Finished transferring output files
+...
+005 (4659.000.000) 2025-06-30 18:04:53 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4835  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	4835  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1        32 
+	   Disk (KB)            :    35085    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       26       37     64313 
+	   TimeExecute (s)      :      122                    
+	   TimeSlotBusy (s)     :      123                    
+
+	Job terminated of its own accord at 2025-06-30T17:04:53Z with exit-code 0.
+...
+000 (4660.000.000) 2025-06-30 18:07:55 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4660.000.000) 2025-06-30 18:08:09 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_24>
+...
+040 (4660.000.000) 2025-06-30 18:08:09 Finished transferring input files
+...
+001 (4660.000.000) 2025-06-30 18:08:10 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_196339"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4660.000.000) 2025-06-30 18:08:19 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	26644  -  ResidentSetSize of job (KB)
+...
+040 (4660.000.000) 2025-06-30 18:13:15 Started transferring output files
+...
+040 (4660.000.000) 2025-06-30 18:13:15 Finished transferring output files
+...
+005 (4660.000.000) 2025-06-30 18:13:15 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	14024  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	14024  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35100    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :      305                    
+	   TimeSlotBusy (s)     :      306                    
+
+	Job terminated of its own accord at 2025-06-30T17:13:15Z with exit-code 0.
+...
+000 (4661.000.000) 2025-06-30 18:16:10 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4661.000.000) 2025-06-30 18:16:30 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_25>
+...
+040 (4661.000.000) 2025-06-30 18:16:31 Finished transferring input files
+...
+001 (4661.000.000) 2025-06-30 18:16:32 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_198218"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4661.000.000) 2025-06-30 18:16:40 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	26844  -  ResidentSetSize of job (KB)
+...
+000 (4662.000.000) 2025-06-30 18:21:14 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4662.000.000) 2025-06-30 18:21:14 Started transferring input files
+	Transferring to host: <10.42.0.143:9618?addrs=10.42.0.143-9618&alias=emu&noUDP&sock=slot2_3160011_5e0e_15>
+...
+040 (4662.000.000) 2025-06-30 18:21:14 Finished transferring input files
+...
+001 (4662.000.000) 2025-06-30 18:21:16 Job executing on host: <10.42.0.143:9618?addrs=10.42.0.143-9618&alias=emu&noUDP&sock=startd_3159968_caa7>
+	SlotName: slot2@emu
+	AvailableGPUs = { GPUs_GPU_ff776280 }
+	CondorScratchDir = "/var/lib/condor/execute/dir_4012479"
+	Cpus = 32
+	Disk = 8025792
+	GPUs = 1
+	GPUs_GPU_ff776280 = [ Id = "GPU-ff776280"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "ff776280-ed27-d589-f639-315ee0c34370"; ECCEnabled = false; DriverVersion = 12.2; DevicePciBusId = "0000:D8:00.0"; GlobalMemoryMb = 48674; MaxSupportedVersion = 12020 ]
+	Memory = 88449
+...
+006 (4662.000.000) 2025-06-30 18:21:24 Image size of job updated: 37500
+	24  -  MemoryUsage of job (MB)
+	23964  -  ResidentSetSize of job (KB)
+...
+040 (4662.000.000) 2025-06-30 18:24:42 Started transferring output files
+...
+040 (4662.000.000) 2025-06-30 18:24:42 Finished transferring output files
+...
+005 (4662.000.000) 2025-06-30 18:24:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4406  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	4406  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35091    37500   8025792 
+	   GPUs                 :                           1 "GPU-ff776280"
+	   Memory (MB)          :       24       37     88449 
+	   TimeExecute (s)      :      206                    
+	   TimeSlotBusy (s)     :      208                    
+
+	Job terminated of its own accord at 2025-06-30T17:24:42Z with exit-code 0.
+...
+000 (4663.000.000) 2025-06-30 18:25:55 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4663.000.000) 2025-06-30 18:25:55 Started transferring input files
+	Transferring to host: <10.42.0.143:9618?addrs=10.42.0.143-9618&alias=emu&noUDP&sock=slot2_3160011_5e0e_16>
+...
+040 (4663.000.000) 2025-06-30 18:25:56 Finished transferring input files
+...
+001 (4663.000.000) 2025-06-30 18:25:57 Job executing on host: <10.42.0.143:9618?addrs=10.42.0.143-9618&alias=emu&noUDP&sock=startd_3159968_caa7>
+	SlotName: slot2@emu
+	AvailableGPUs = { GPUs_GPU_ff776280 }
+	CondorScratchDir = "/var/lib/condor/execute/dir_4014831"
+	Cpus = 32
+	Disk = 8025792
+	GPUs = 1
+	GPUs_GPU_ff776280 = [ Id = "GPU-ff776280"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "ff776280-ed27-d589-f639-315ee0c34370"; ECCEnabled = false; DriverVersion = 12.2; DevicePciBusId = "0000:D8:00.0"; GlobalMemoryMb = 48674; MaxSupportedVersion = 12020 ]
+	Memory = 88449
+...
+006 (4663.000.000) 2025-06-30 18:26:05 Image size of job updated: 37500
+	23  -  MemoryUsage of job (MB)
+	23272  -  ResidentSetSize of job (KB)
+...
+040 (4663.000.000) 2025-06-30 18:30:41 Started transferring output files
+...
+040 (4663.000.000) 2025-06-30 18:30:41 Finished transferring output files
+...
+005 (4663.000.000) 2025-06-30 18:30:41 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5625  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	5625  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35092    37500   8025792 
+	   GPUs                 :                           1 "GPU-ff776280"
+	   Memory (MB)          :       23       37     88449 
+	   TimeExecute (s)      :      284                    
+	   TimeSlotBusy (s)     :      286                    
+
+	Job terminated of its own accord at 2025-06-30T17:30:41Z with exit-code 0.
+...
+040 (4661.000.000) 2025-06-30 18:43:49 Started transferring output files
+...
+040 (4661.000.000) 2025-06-30 18:43:49 Finished transferring output files
+...
+005 (4661.000.000) 2025-06-30 18:43:49 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	11763  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	11763  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1        32 
+	   Disk (KB)            : 35098       37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :    27          37     64313 
+	   TimeExecute (s)      :  1637                       
+	   TimeSlotBusy (s)     :  1639                       
+
+	Job terminated of its own accord at 2025-06-30T17:43:49Z with exit-code 0.
+...
+000 (4664.000.000) 2025-06-30 18:44:25 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4664.000.000) 2025-06-30 18:44:25 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_26>
+...
+040 (4664.000.000) 2025-06-30 18:44:26 Finished transferring input files
+...
+001 (4664.000.000) 2025-06-30 18:44:27 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_201018"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4664.000.000) 2025-06-30 18:44:35 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27316  -  ResidentSetSize of job (KB)
+...
+040 (4664.000.000) 2025-06-30 18:49:38 Started transferring output files
+...
+040 (4664.000.000) 2025-06-30 18:49:38 Finished transferring output files
+...
+005 (4664.000.000) 2025-06-30 18:49:38 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13699  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	13699  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1        32 
+	   Disk (KB)            : 35100       37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :    27          37     64313 
+	   TimeExecute (s)      :   311                       
+	   TimeSlotBusy (s)     :   313                       
+
+	Job terminated of its own accord at 2025-06-30T17:49:38Z with exit-code 0.
+...
+000 (4665.000.000) 2025-06-30 18:54:18 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4665.000.000) 2025-06-30 18:54:18 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_27>
+...
+040 (4665.000.000) 2025-06-30 18:54:18 Finished transferring input files
+...
+001 (4665.000.000) 2025-06-30 18:54:19 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_202806"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4665.000.000) 2025-06-30 18:54:27 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27360  -  ResidentSetSize of job (KB)
+...
+040 (4665.000.000) 2025-06-30 18:57:42 Started transferring output files
+...
+040 (4665.000.000) 2025-06-30 18:57:42 Finished transferring output files
+...
+005 (4665.000.000) 2025-06-30 18:57:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	10288  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	10288  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35096    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :      203                    
+	   TimeSlotBusy (s)     :      204                    
+
+	Job terminated of its own accord at 2025-06-30T17:57:42Z with exit-code 0.
+...
+000 (4667.000.000) 2025-06-30 19:00:09 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4667.000.000) 2025-06-30 19:00:11 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_28>
+...
+040 (4667.000.000) 2025-06-30 19:00:11 Finished transferring input files
+...
+001 (4667.000.000) 2025-06-30 19:00:12 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_204389"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4667.000.000) 2025-06-30 19:00:21 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	26748  -  ResidentSetSize of job (KB)
+...
+040 (4667.000.000) 2025-06-30 19:01:27 Started transferring output files
+...
+040 (4667.000.000) 2025-06-30 19:01:27 Finished transferring output files
+...
+005 (4667.000.000) 2025-06-30 19:01:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4482  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	4482  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35091    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       75                    
+	   TimeSlotBusy (s)     :       76                    
+
+	Job terminated of its own accord at 2025-06-30T18:01:27Z with exit-code 0.
+...
+000 (4668.000.000) 2025-06-30 19:01:46 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4668.000.000) 2025-06-30 19:01:46 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_29>
+...
+040 (4668.000.000) 2025-06-30 19:01:46 Finished transferring input files
+...
+001 (4668.000.000) 2025-06-30 19:01:47 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_206047"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4668.000.000) 2025-06-30 19:01:56 Image size of job updated: 37500
+	26  -  MemoryUsage of job (MB)
+	25752  -  ResidentSetSize of job (KB)
+...
+040 (4668.000.000) 2025-06-30 19:05:01 Started transferring output files
+...
+040 (4668.000.000) 2025-06-30 19:05:01 Finished transferring output files
+...
+005 (4668.000.000) 2025-06-30 19:05:01 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4663  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	4663  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.01        1        32 
+	   Disk (KB)            : 35091       37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :    26          37     64313 
+	   TimeExecute (s)      :   194                       
+	   TimeSlotBusy (s)     :   195                       
+
+	Job terminated of its own accord at 2025-06-30T18:05:01Z with exit-code 0.
+...
+000 (4669.000.000) 2025-06-30 19:05:30 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4669.000.000) 2025-06-30 19:05:30 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_30>
+...
+040 (4669.000.000) 2025-06-30 19:05:30 Finished transferring input files
+...
+001 (4669.000.000) 2025-06-30 19:05:31 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_207735"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4669.000.000) 2025-06-30 19:05:40 Image size of job updated: 37500
+	24  -  MemoryUsage of job (MB)
+	24396  -  ResidentSetSize of job (KB)
+...
+040 (4669.000.000) 2025-06-30 19:05:54 Started transferring output files
+...
+040 (4669.000.000) 2025-06-30 19:05:54 Finished transferring output files
+...
+005 (4669.000.000) 2025-06-30 19:05:54 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1147  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	1147  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35087    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       24       37     64313 
+	   TimeExecute (s)      :       23                    
+	   TimeSlotBusy (s)     :       24                    
+
+	Job terminated of its own accord at 2025-06-30T18:05:54Z with exit-code 0.
+...
+000 (4670.000.000) 2025-06-30 19:14:10 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4670.000.000) 2025-06-30 19:14:10 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_31>
+...
+040 (4670.000.000) 2025-06-30 19:14:10 Finished transferring input files
+...
+001 (4670.000.000) 2025-06-30 19:14:11 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_210834"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4670.000.000) 2025-06-30 19:14:20 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27340  -  ResidentSetSize of job (KB)
+...
+040 (4670.000.000) 2025-06-30 19:17:36 Started transferring output files
+...
+040 (4670.000.000) 2025-06-30 19:17:36 Finished transferring output files
+...
+005 (4670.000.000) 2025-06-30 19:17:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	10287  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	10287  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1        32 
+	   Disk (KB)            : 35096       37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :    27          37     64313 
+	   TimeExecute (s)      :   205                       
+	   TimeSlotBusy (s)     :   206                       
+
+	Job terminated of its own accord at 2025-06-30T18:17:36Z with exit-code 0.
+...
+000 (4671.000.000) 2025-06-30 19:19:42 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4671.000.000) 2025-06-30 19:19:42 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_32>
+...
+040 (4671.000.000) 2025-06-30 19:19:42 Finished transferring input files
+...
+001 (4671.000.000) 2025-06-30 19:19:43 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_212421"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4671.000.000) 2025-06-30 19:19:52 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27328  -  ResidentSetSize of job (KB)
+...
+040 (4671.000.000) 2025-06-30 19:20:24 Started transferring output files
+...
+040 (4671.000.000) 2025-06-30 19:20:24 Finished transferring output files
+...
+005 (4671.000.000) 2025-06-30 19:20:24 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6055  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	6055  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35092    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       41                    
+	   TimeSlotBusy (s)     :       42                    
+
+	Job terminated of its own accord at 2025-06-30T18:20:24Z with exit-code 0.
+...
+000 (4672.000.000) 2025-06-30 19:22:11 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4672.000.000) 2025-06-30 19:22:11 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_33>
+...
+040 (4672.000.000) 2025-06-30 19:22:11 Finished transferring input files
+...
+001 (4672.000.000) 2025-06-30 19:22:12 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_213899"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4672.000.000) 2025-06-30 19:22:16 Image size of job updated: 37500
+	1  -  MemoryUsage of job (MB)
+	1024  -  ResidentSetSize of job (KB)
+...
+040 (4672.000.000) 2025-06-30 19:22:16 Started transferring output files
+...
+040 (4672.000.000) 2025-06-30 19:22:16 Finished transferring output files
+...
+005 (4672.000.000) 2025-06-30 19:22:16 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	357  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	357  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35086    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :        1       37     64313 
+	   TimeExecute (s)      :        4                    
+	   TimeSlotBusy (s)     :        5                    
+
+	Job terminated of its own accord at 2025-06-30T18:22:16Z with exit-code 0.
+...
+000 (4673.000.000) 2025-06-30 19:23:47 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4673.000.000) 2025-06-30 19:23:47 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_34>
+...
+040 (4673.000.000) 2025-06-30 19:23:48 Finished transferring input files
+...
+001 (4673.000.000) 2025-06-30 19:23:49 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_214987"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4673.000.000) 2025-06-30 19:23:57 Image size of job updated: 37500
+	25  -  MemoryUsage of job (MB)
+	25496  -  ResidentSetSize of job (KB)
+...
+040 (4673.000.000) 2025-06-30 19:24:29 Started transferring output files
+...
+040 (4673.000.000) 2025-06-30 19:24:29 Finished transferring output files
+...
+005 (4673.000.000) 2025-06-30 19:24:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6377  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	6377  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35092    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       25       37     64313 
+	   TimeExecute (s)      :       40                    
+	   TimeSlotBusy (s)     :       42                    
+
+	Job terminated of its own accord at 2025-06-30T18:24:29Z with exit-code 0.
+...
+000 (4674.000.000) 2025-06-30 19:28:35 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4674.000.000) 2025-06-30 19:28:35 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_35>
+...
+040 (4674.000.000) 2025-06-30 19:28:35 Finished transferring input files
+...
+001 (4674.000.000) 2025-06-30 19:28:36 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_216630"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4674.000.000) 2025-06-30 19:28:45 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27564  -  ResidentSetSize of job (KB)
+...
+040 (4674.000.000) 2025-06-30 19:29:17 Started transferring output files
+...
+040 (4674.000.000) 2025-06-30 19:29:17 Finished transferring output files
+...
+005 (4674.000.000) 2025-06-30 19:29:17 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6359  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	6359  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35092    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       41                    
+	   TimeSlotBusy (s)     :       42                    
+
+	Job terminated of its own accord at 2025-06-30T18:29:17Z with exit-code 0.
+...
+000 (4675.000.000) 2025-06-30 19:33:33 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4675.000.000) 2025-06-30 19:33:33 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_36>
+...
+040 (4675.000.000) 2025-06-30 19:33:34 Finished transferring input files
+...
+001 (4675.000.000) 2025-06-30 19:33:35 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_218077"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4675.000.000) 2025-06-30 19:33:43 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27176  -  ResidentSetSize of job (KB)
+...
+040 (4675.000.000) 2025-06-30 19:34:15 Started transferring output files
+...
+040 (4675.000.000) 2025-06-30 19:34:15 Finished transferring output files
+...
+005 (4675.000.000) 2025-06-30 19:34:15 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6359  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	6359  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35092    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       40                    
+	   TimeSlotBusy (s)     :       42                    
+
+	Job terminated of its own accord at 2025-06-30T18:34:15Z with exit-code 0.
+...
+000 (4676.000.000) 2025-06-30 19:35:07 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4676.000.000) 2025-06-30 19:35:07 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_37>
+...
+040 (4676.000.000) 2025-06-30 19:35:07 Finished transferring input files
+...
+001 (4676.000.000) 2025-06-30 19:35:08 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_219512"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4676.000.000) 2025-06-30 19:35:17 Image size of job updated: 37500
+	26  -  MemoryUsage of job (MB)
+	25816  -  ResidentSetSize of job (KB)
+...
+040 (4676.000.000) 2025-06-30 19:35:49 Started transferring output files
+...
+040 (4676.000.000) 2025-06-30 19:35:49 Finished transferring output files
+...
+005 (4676.000.000) 2025-06-30 19:35:49 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6173  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	6173  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35092    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       26       37     64313 
+	   TimeExecute (s)      :       41                    
+	   TimeSlotBusy (s)     :       42                    
+
+	Job terminated of its own accord at 2025-06-30T18:35:49Z with exit-code 0.
+...
+000 (4677.000.000) 2025-06-30 19:36:36 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4677.000.000) 2025-06-30 19:36:36 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_38>
+...
+040 (4677.000.000) 2025-06-30 19:36:36 Finished transferring input files
+...
+001 (4677.000.000) 2025-06-30 19:36:38 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_221012"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4677.000.000) 2025-06-30 19:36:46 Image size of job updated: 37500
+	25  -  MemoryUsage of job (MB)
+	24832  -  ResidentSetSize of job (KB)
+...
+040 (4677.000.000) 2025-06-30 19:37:18 Started transferring output files
+...
+040 (4677.000.000) 2025-06-30 19:37:18 Finished transferring output files
+...
+005 (4677.000.000) 2025-06-30 19:37:18 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5647  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	5647  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.01        1        32 
+	   Disk (KB)            : 35092       37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :    25          37     64313 
+	   TimeExecute (s)      :    41                       
+	   TimeSlotBusy (s)     :    42                       
+
+	Job terminated of its own accord at 2025-06-30T18:37:18Z with exit-code 0.
+...
+000 (4678.000.000) 2025-06-30 19:41:18 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4678.000.000) 2025-06-30 19:41:18 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_39>
+...
+040 (4678.000.000) 2025-06-30 19:41:18 Finished transferring input files
+...
+001 (4678.000.000) 2025-06-30 19:41:19 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_222466"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4678.000.000) 2025-06-30 19:41:28 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27460  -  ResidentSetSize of job (KB)
+...
+040 (4678.000.000) 2025-06-30 19:42:00 Started transferring output files
+...
+040 (4678.000.000) 2025-06-30 19:42:00 Finished transferring output files
+...
+005 (4678.000.000) 2025-06-30 19:42:00 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5479  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	5479  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35092    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       41                    
+	   TimeSlotBusy (s)     :       42                    
+
+	Job terminated of its own accord at 2025-06-30T18:42:00Z with exit-code 0.
+...
+000 (4679.000.000) 2025-06-30 19:42:38 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4679.000.000) 2025-06-30 19:42:38 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_40>
+...
+040 (4679.000.000) 2025-06-30 19:42:39 Finished transferring input files
+...
+001 (4679.000.000) 2025-06-30 19:42:40 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_223991"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4679.000.000) 2025-06-30 19:42:48 Image size of job updated: 37500
+	24  -  MemoryUsage of job (MB)
+	24400  -  ResidentSetSize of job (KB)
+...
+040 (4679.000.000) 2025-06-30 19:43:20 Started transferring output files
+...
+040 (4679.000.000) 2025-06-30 19:43:20 Finished transferring output files
+...
+005 (4679.000.000) 2025-06-30 19:43:20 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5647  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	5647  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35092    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       24       37     64313 
+	   TimeExecute (s)      :       40                    
+	   TimeSlotBusy (s)     :       42                    
+
+	Job terminated of its own accord at 2025-06-30T18:43:20Z with exit-code 0.
+...
+000 (4680.000.000) 2025-06-30 19:44:22 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4680.000.000) 2025-06-30 19:44:22 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_41>
+...
+040 (4680.000.000) 2025-06-30 19:44:22 Finished transferring input files
+...
+001 (4680.000.000) 2025-06-30 19:44:23 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_225558"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4680.000.000) 2025-06-30 19:44:32 Image size of job updated: 37500
+	25  -  MemoryUsage of job (MB)
+	25344  -  ResidentSetSize of job (KB)
+...
+040 (4680.000.000) 2025-06-30 19:47:20 Started transferring output files
+...
+040 (4680.000.000) 2025-06-30 19:47:20 Finished transferring output files
+...
+005 (4680.000.000) 2025-06-30 19:47:20 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	10597  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	10597  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35097    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       25       37     64313 
+	   TimeExecute (s)      :      177                    
+	   TimeSlotBusy (s)     :      178                    
+
+	Job terminated of its own accord at 2025-06-30T18:47:20Z with exit-code 0.
+...
+000 (4681.000.000) 2025-06-30 20:05:23 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4681.000.000) 2025-06-30 20:05:42 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_42>
+...
+040 (4681.000.000) 2025-06-30 20:05:42 Finished transferring input files
+...
+001 (4681.000.000) 2025-06-30 20:05:43 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_227430"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4681.000.000) 2025-06-30 20:05:52 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27588  -  ResidentSetSize of job (KB)
+...
+040 (4681.000.000) 2025-06-30 20:17:22 Started transferring output files
+...
+040 (4681.000.000) 2025-06-30 20:17:22 Finished transferring output files
+...
+005 (4681.000.000) 2025-06-30 20:17:22 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5093  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	5093  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35091    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :      699                    
+	   TimeSlotBusy (s)     :      700                    
+
+	Job terminated of its own accord at 2025-06-30T19:17:22Z with exit-code 0.
+...
+000 (4682.000.000) 2025-06-30 20:17:50 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4682.000.000) 2025-06-30 20:18:02 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_43>
+...
+040 (4682.000.000) 2025-06-30 20:18:03 Finished transferring input files
+...
+001 (4682.000.000) 2025-06-30 20:18:04 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_229349"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4682.000.000) 2025-06-30 20:18:12 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27360  -  ResidentSetSize of job (KB)
+...
+040 (4682.000.000) 2025-06-30 20:32:20 Started transferring output files
+...
+040 (4682.000.000) 2025-06-30 20:32:20 Finished transferring output files
+...
+005 (4682.000.000) 2025-06-30 20:32:20 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5093  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	5093  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35091    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :      856                    
+	   TimeSlotBusy (s)     :      858                    
+
+	Job terminated of its own accord at 2025-06-30T19:32:20Z with exit-code 0.
+...
+000 (4683.000.000) 2025-06-30 20:32:53 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4683.000.000) 2025-06-30 20:32:53 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_44>
+...
+040 (4683.000.000) 2025-06-30 20:32:53 Finished transferring input files
+...
+001 (4683.000.000) 2025-06-30 20:32:54 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_231396"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4683.000.000) 2025-06-30 20:33:03 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27360  -  ResidentSetSize of job (KB)
+...
+040 (4683.000.000) 2025-06-30 22:10:45 Started transferring output files
+...
+040 (4683.000.000) 2025-06-30 22:10:45 Finished transferring output files
+...
+005 (4683.000.000) 2025-06-30 22:10:45 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13821  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	13821  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35100    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :     5871                    
+	   TimeSlotBusy (s)     :     5872                    
+
+	Job terminated of its own accord at 2025-06-30T21:10:45Z with exit-code 0.
+...
+000 (4684.000.000) 2025-06-30 22:24:30 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4684.000.000) 2025-06-30 22:24:30 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_45>
+...
+040 (4684.000.000) 2025-06-30 22:24:31 Finished transferring input files
+...
+001 (4684.000.000) 2025-06-30 22:24:32 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_236571"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4684.000.000) 2025-06-30 22:24:40 Image size of job updated: 37500
+	29  -  MemoryUsage of job (MB)
+	29396  -  ResidentSetSize of job (KB)
+...
+040 (4684.000.000) 2025-06-30 22:25:46 Started transferring output files
+...
+040 (4684.000.000) 2025-06-30 22:25:46 Finished transferring output files
+...
+005 (4684.000.000) 2025-06-30 22:25:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4855  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	4855  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35091    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       29       37     64313 
+	   TimeExecute (s)      :       74                    
+	   TimeSlotBusy (s)     :       76                    
+
+	Job terminated of its own accord at 2025-06-30T21:25:46Z with exit-code 0.
+...
+000 (4685.000.000) 2025-06-30 22:27:35 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4685.000.000) 2025-06-30 22:27:50 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_46>
+...
+040 (4685.000.000) 2025-06-30 22:27:50 Finished transferring input files
+...
+001 (4685.000.000) 2025-06-30 22:27:51 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_238026"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4685.000.000) 2025-06-30 22:28:00 Image size of job updated: 37500
+	26  -  MemoryUsage of job (MB)
+	26220  -  ResidentSetSize of job (KB)
+...
+040 (4685.000.000) 2025-06-30 23:02:22 Started transferring output files
+...
+040 (4685.000.000) 2025-06-30 23:02:22 Finished transferring output files
+...
+005 (4685.000.000) 2025-06-30 23:02:22 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	7513  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	7513  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1        32 
+	   Disk (KB)            : 35094       37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :    26          37     64313 
+	   TimeExecute (s)      :  2071                       
+	   TimeSlotBusy (s)     :  2072                       
+
+	Job terminated of its own accord at 2025-06-30T22:02:22Z with exit-code 0.
+...
+000 (4686.000.000) 2025-06-30 23:02:57 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4686.000.000) 2025-06-30 23:03:10 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_47>
+...
+040 (4686.000.000) 2025-06-30 23:03:10 Finished transferring input files
+...
+001 (4686.000.000) 2025-06-30 23:03:11 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_244448"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4686.000.000) 2025-06-30 23:03:19 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	26944  -  ResidentSetSize of job (KB)
+...
+040 (4686.000.000) 2025-06-30 23:09:19 Started transferring output files
+...
+040 (4686.000.000) 2025-06-30 23:09:19 Finished transferring output files
+...
+005 (4686.000.000) 2025-06-30 23:09:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4545  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	4545  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35091    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :      368                    
+	   TimeSlotBusy (s)     :      369                    
+
+	Job terminated of its own accord at 2025-06-30T22:09:19Z with exit-code 0.
+...
+000 (4687.000.000) 2025-06-30 23:09:46 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4687.000.000) 2025-06-30 23:09:46 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_48>
+...
+040 (4687.000.000) 2025-06-30 23:09:46 Finished transferring input files
+...
+001 (4687.000.000) 2025-06-30 23:09:47 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_252017"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4687.000.000) 2025-06-30 23:09:56 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	26652  -  ResidentSetSize of job (KB)
+...
+040 (4687.000.000) 2025-06-30 23:10:29 Started transferring output files
+...
+040 (4687.000.000) 2025-06-30 23:10:29 Finished transferring output files
+...
+005 (4687.000.000) 2025-06-30 23:10:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3818  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	3818  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35090    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       42                    
+	   TimeSlotBusy (s)     :       43                    
+
+	Job terminated of its own accord at 2025-06-30T22:10:29Z with exit-code 0.
+...
+000 (4688.000.000) 2025-06-30 23:11:05 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4688.000.000) 2025-06-30 23:11:06 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_49>
+...
+040 (4688.000.000) 2025-06-30 23:11:07 Finished transferring input files
+...
+001 (4688.000.000) 2025-06-30 23:11:08 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_253492"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4688.000.000) 2025-06-30 23:11:16 Image size of job updated: 37500
+	26  -  MemoryUsage of job (MB)
+	26084  -  ResidentSetSize of job (KB)
+...
+040 (4688.000.000) 2025-06-30 23:20:57 Started transferring output files
+...
+040 (4688.000.000) 2025-06-30 23:20:57 Finished transferring output files
+...
+005 (4688.000.000) 2025-06-30 23:20:57 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5287  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	5287  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35091    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       26       37     64313 
+	   TimeExecute (s)      :      589                    
+	   TimeSlotBusy (s)     :      591                    
+
+	Job terminated of its own accord at 2025-06-30T22:20:57Z with exit-code 0.
+...
+000 (4689.000.000) 2025-06-30 23:21:19 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4689.000.000) 2025-06-30 23:21:27 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_50>
+...
+040 (4689.000.000) 2025-06-30 23:21:27 Finished transferring input files
+...
+001 (4689.000.000) 2025-06-30 23:21:28 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_255336"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4689.000.000) 2025-06-30 23:21:37 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27468  -  ResidentSetSize of job (KB)
+...
+040 (4689.000.000) 2025-07-01 13:44:49 Started transferring output files
+...
+040 (4689.000.000) 2025-07-01 13:44:49 Finished transferring output files
+...
+005 (4689.000.000) 2025-07-01 13:44:49 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:04, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:04, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	67771  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	67771  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35152    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :    51801                    
+	   TimeSlotBusy (s)     :    51802                    
+
+	Job terminated of its own accord at 2025-07-01T12:44:49Z with exit-code 0.
+...
+000 (4714.000.000) 2025-07-01 13:46:08 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4714.000.000) 2025-07-01 13:46:08 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_51>
+...
+040 (4714.000.000) 2025-07-01 13:46:09 Finished transferring input files
+...
+001 (4714.000.000) 2025-07-01 13:46:10 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_364067"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4714.000.000) 2025-07-01 13:46:18 Image size of job updated: 53604
+	53  -  MemoryUsage of job (MB)
+	53604  -  ResidentSetSize of job (KB)
+...
+040 (4714.000.000) 2025-07-01 14:43:48 Started transferring output files
+...
+040 (4714.000.000) 2025-07-01 14:43:48 Finished transferring output files
+...
+005 (4714.000.000) 2025-07-01 14:43:48 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	8255  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	8255  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1        32 
+	   Disk (KB)            : 35094       37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :    53          37     64313 
+	   TimeExecute (s)      :  3458                       
+	   TimeSlotBusy (s)     :  3460                       
+
+	Job terminated of its own accord at 2025-07-01T13:43:48Z with exit-code 0.
+...
+000 (4717.000.000) 2025-07-01 14:45:26 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4717.000.000) 2025-07-01 14:45:26 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_52>
+...
+040 (4717.000.000) 2025-07-01 14:45:26 Finished transferring input files
+...
+001 (4717.000.000) 2025-07-01 14:45:27 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_367412"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4717.000.000) 2025-07-01 14:45:36 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27632  -  ResidentSetSize of job (KB)
+...
+040 (4717.000.000) 2025-07-01 19:35:39 Started transferring output files
+...
+040 (4717.000.000) 2025-07-01 19:35:39 Finished transferring output files
+...
+005 (4717.000.000) 2025-07-01 19:35:39 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	22703  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	22703  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1        32 
+	   Disk (KB)            : 35108       37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :    27          37     64313 
+	   TimeExecute (s)      : 17412                       
+	   TimeSlotBusy (s)     : 17413                       
+
+	Job terminated of its own accord at 2025-07-01T18:35:39Z with exit-code 0.
+...
+000 (4727.000.000) 2025-07-01 19:35:58 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4727.000.000) 2025-07-01 19:35:58 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_53>
+...
+040 (4727.000.000) 2025-07-01 19:35:59 Finished transferring input files
+...
+001 (4727.000.000) 2025-07-01 19:36:00 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_398999"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4727.000.000) 2025-07-01 19:36:08 Image size of job updated: 55280
+	54  -  MemoryUsage of job (MB)
+	55280  -  ResidentSetSize of job (KB)
+...
+040 (4727.000.000) 2025-07-02 22:05:10 Started transferring output files
+...
+040 (4727.000.000) 2025-07-02 22:05:10 Finished transferring output files
+...
+005 (4727.000.000) 2025-07-02 22:05:11 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:07, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:07, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	111369  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	111369  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35195    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       54       37     64313 
+	   TimeExecute (s)      :    95350                    
+	   TimeSlotBusy (s)     :    95352                    
+
+	Job terminated of its own accord at 2025-07-02T21:05:10Z with exit-code 0.
+...
+000 (4757.000.000) 2025-07-02 22:41:26 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4757.000.000) 2025-07-02 22:41:37 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_63>
+...
+040 (4757.000.000) 2025-07-02 22:41:37 Finished transferring input files
+...
+001 (4757.000.000) 2025-07-02 22:41:38 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_658309"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4757.000.000) 2025-07-02 22:41:46 Image size of job updated: 37500
+	26  -  MemoryUsage of job (MB)
+	26284  -  ResidentSetSize of job (KB)
+...
+040 (4757.000.000) 2025-07-02 22:45:11 Started transferring output files
+...
+040 (4757.000.000) 2025-07-02 22:45:11 Finished transferring output files
+...
+005 (4757.000.000) 2025-07-02 22:45:11 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	7636  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	7636  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.01        1        32 
+	   Disk (KB)            : 35094       37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :    26          37     64313 
+	   TimeExecute (s)      :   213                       
+	   TimeSlotBusy (s)     :   214                       
+
+	Job terminated of its own accord at 2025-07-02T21:45:11Z with exit-code 0.
+...
+000 (4758.000.000) 2025-07-02 22:45:35 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4758.000.000) 2025-07-02 22:45:35 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_64>
+...
+040 (4758.000.000) 2025-07-02 22:45:35 Finished transferring input files
+...
+001 (4758.000.000) 2025-07-02 22:45:36 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_662526"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4758.000.000) 2025-07-02 22:45:44 Image size of job updated: 37500
+	26  -  MemoryUsage of job (MB)
+	25620  -  ResidentSetSize of job (KB)
+...
+040 (4758.000.000) 2025-07-02 22:46:41 Started transferring output files
+...
+040 (4758.000.000) 2025-07-02 22:46:41 Finished transferring output files
+...
+005 (4758.000.000) 2025-07-02 22:46:41 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	11198  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	11198  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35097    37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :       26       37     64313 
+	   TimeExecute (s)      :       65                    
+	   TimeSlotBusy (s)     :       66                    
+
+	Job terminated of its own accord at 2025-07-02T21:46:41Z with exit-code 0.
+...
+000 (4759.000.000) 2025-07-02 22:47:49 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4759.000.000) 2025-07-02 22:47:56 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot2_3417_55e4_65>
+...
+040 (4759.000.000) 2025-07-02 22:47:56 Finished transferring input files
+...
+001 (4759.000.000) 2025-07-02 22:47:57 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot2@flamingo
+	AvailableGPUs = { GPUs_GPU_c7ad5e7e }
+	CondorScratchDir = "/var/lib/condor/execute/dir_664202"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_c7ad5e7e = [ Id = "GPU-c7ad5e7e"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "c7ad5e7e-69d2-3daa-f94b-7862f352cc35"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4759.000.000) 2025-07-02 22:48:05 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27324  -  ResidentSetSize of job (KB)
+...
+040 (4759.000.000) 2025-07-03 01:07:40 Started transferring output files
+...
+040 (4759.000.000) 2025-07-03 01:07:40 Finished transferring output files
+...
+005 (4759.000.000) 2025-07-03 01:07:40 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	23885  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	23885  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1        32 
+	   Disk (KB)            : 35110       37500 835691056 
+	   GPUs                 :                           1 "GPU-c7ad5e7e"
+	   Memory (MB)          :    27          37     64313 
+	   TimeExecute (s)      :  8383                       
+	   TimeSlotBusy (s)     :  8385                       
+
+	Job terminated of its own accord at 2025-07-03T00:07:40Z with exit-code 0.
+...
+000 (4760.000.000) 2025-07-03 08:40:56 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4760.000.000) 2025-07-03 08:40:57 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_66>
+...
+040 (4760.000.000) 2025-07-03 08:40:57 Finished transferring input files
+...
+001 (4760.000.000) 2025-07-03 08:40:58 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_709930"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4760.000.000) 2025-07-03 08:41:06 Image size of job updated: 37500
+	25  -  MemoryUsage of job (MB)
+	25408  -  ResidentSetSize of job (KB)
+...
+040 (4760.000.000) 2025-07-03 08:45:06 Started transferring output files
+...
+040 (4760.000.000) 2025-07-03 08:45:06 Finished transferring output files
+...
+005 (4760.000.000) 2025-07-03 08:45:06 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1838  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	1838  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1        32 
+	   Disk (KB)            : 35088       37500 835691056 
+	   GPUs                 :                           1 "GPU-17e5feeb"
+	   Memory (MB)          :    25          37     64313 
+	   TimeExecute (s)      :   248                       
+	   TimeSlotBusy (s)     :   250                       
+
+	Job terminated of its own accord at 2025-07-03T07:45:06Z with exit-code 0.
+...
+000 (4761.000.000) 2025-07-03 08:47:40 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4761.000.000) 2025-07-03 08:47:40 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_67>
+...
+040 (4761.000.000) 2025-07-03 08:47:40 Finished transferring input files
+...
+001 (4761.000.000) 2025-07-03 08:47:41 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_714904"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4761.000.000) 2025-07-03 08:47:50 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	26740  -  ResidentSetSize of job (KB)
+...
+040 (4761.000.000) 2025-07-03 08:47:51 Started transferring output files
+...
+040 (4761.000.000) 2025-07-03 08:47:51 Finished transferring output files
+...
+005 (4761.000.000) 2025-07-03 08:47:51 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1806  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	1806  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35088    37500 835691056 
+	   GPUs                 :                           1 "GPU-17e5feeb"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :       10                    
+	   TimeSlotBusy (s)     :       11                    
+
+	Job terminated of its own accord at 2025-07-03T07:47:51Z with exit-code 0.
+...
+000 (4762.000.000) 2025-07-03 08:56:42 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4762.000.000) 2025-07-03 08:57:00 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_68>
+...
+040 (4762.000.000) 2025-07-03 08:57:00 Finished transferring input files
+...
+001 (4762.000.000) 2025-07-03 08:57:01 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_716832"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4762.000.000) 2025-07-03 08:57:10 Image size of job updated: 37500
+	28  -  MemoryUsage of job (MB)
+	27652  -  ResidentSetSize of job (KB)
+...
+040 (4762.000.000) 2025-07-03 08:57:12 Started transferring output files
+...
+040 (4762.000.000) 2025-07-03 08:57:12 Finished transferring output files
+...
+005 (4762.000.000) 2025-07-03 08:57:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1804  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	1804  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35088    37500 835691056 
+	   GPUs                 :                           1 "GPU-17e5feeb"
+	   Memory (MB)          :       28       37     64313 
+	   TimeExecute (s)      :       11                    
+	   TimeSlotBusy (s)     :       12                    
+
+	Job terminated of its own accord at 2025-07-03T07:57:12Z with exit-code 0.
+...
+000 (4764.000.000) 2025-07-03 09:40:15 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4764.000.000) 2025-07-03 09:40:16 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_69>
+...
+040 (4764.000.000) 2025-07-03 09:40:16 Finished transferring input files
+...
+001 (4764.000.000) 2025-07-03 09:40:17 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_720852"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+000 (4765.000.000) 2025-07-03 09:40:20 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+006 (4764.000.000) 2025-07-03 09:40:25 Image size of job updated: 37500
+	23  -  MemoryUsage of job (MB)
+	23208  -  ResidentSetSize of job (KB)
+...
+006 (4764.000.000) 2025-07-03 09:45:25 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	27108  -  ResidentSetSize of job (KB)
+...
+040 (4764.000.000) 2025-07-03 11:39:17 Started transferring output files
+...
+040 (4764.000.000) 2025-07-03 11:39:17 Finished transferring output files
+...
+005 (4764.000.000) 2025-07-03 11:39:17 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	190703  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	190703  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35272    37500 835691056 
+	   GPUs                 :                           1 "GPU-17e5feeb"
+	   Memory (MB)          :       27       37     64313 
+	   TimeExecute (s)      :     7140                    
+	   TimeSlotBusy (s)     :     7141                    
+
+	Job terminated of its own accord at 2025-07-03T10:39:17Z with exit-code 0.
+...
+040 (4765.000.000) 2025-07-03 11:39:25 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_70>
+...
+040 (4765.000.000) 2025-07-03 11:39:25 Finished transferring input files
+...
+001 (4765.000.000) 2025-07-03 11:39:26 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_750450"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4765.000.000) 2025-07-03 11:39:35 Image size of job updated: 37500
+	28  -  MemoryUsage of job (MB)
+	28128  -  ResidentSetSize of job (KB)
+...
+040 (4765.000.000) 2025-07-03 13:36:52 Started transferring output files
+...
+040 (4765.000.000) 2025-07-03 13:36:52 Finished transferring output files
+...
+005 (4765.000.000) 2025-07-03 13:36:52 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	183058  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	183058  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35265    37500 835691056 
+	   GPUs                 :                           1 "GPU-17e5feeb"
+	   Memory (MB)          :       28       37     64313 
+	   TimeExecute (s)      :     7046                    
+	   TimeSlotBusy (s)     :     7047                    
+
+	Job terminated of its own accord at 2025-07-03T12:36:52Z with exit-code 0.
+...
+000 (4778.000.000) 2025-07-03 16:07:27 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4778.000.000) 2025-07-03 16:07:27 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_72>
+...
+040 (4778.000.000) 2025-07-03 16:07:27 Finished transferring input files
+...
+001 (4778.000.000) 2025-07-03 16:07:28 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_789641"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4778.000.000) 2025-07-03 16:07:37 Image size of job updated: 37500
+	28  -  MemoryUsage of job (MB)
+	27928  -  ResidentSetSize of job (KB)
+...
+040 (4778.000.000) 2025-07-03 17:46:49 Started transferring output files
+...
+040 (4778.000.000) 2025-07-03 17:46:49 Finished transferring output files
+...
+005 (4778.000.000) 2025-07-03 17:46:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	159976  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	159976  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35242    37500 835691056 
+	   GPUs                 :                           1 "GPU-17e5feeb"
+	   Memory (MB)          :       28       37     64313 
+	   TimeExecute (s)      :     5961                    
+	   TimeSlotBusy (s)     :     5962                    
+
+	Job terminated of its own accord at 2025-07-03T16:46:49Z with exit-code 0.
+...
+000 (4780.000.000) 2025-07-03 21:14:18 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4780.000.000) 2025-07-03 21:14:35 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_74>
+...
+040 (4780.000.000) 2025-07-03 21:14:36 Finished transferring input files
+...
+001 (4780.000.000) 2025-07-03 21:14:37 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_849525"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4780.000.000) 2025-07-03 21:14:45 Image size of job updated: 37500
+	1  -  MemoryUsage of job (MB)
+	856  -  ResidentSetSize of job (KB)
+...
+040 (4780.000.000) 2025-07-03 21:14:45 Started transferring output files
+...
+040 (4780.000.000) 2025-07-03 21:14:45 Finished transferring output files
+...
+005 (4780.000.000) 2025-07-03 21:14:45 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1652  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	1652  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35088    37500 835691056 
+	   GPUs                 :                           1 "GPU-17e5feeb"
+	   Memory (MB)          :        1       37     64313 
+	   TimeExecute (s)      :        8                    
+	   TimeSlotBusy (s)     :       10                    
+
+	Job terminated of its own accord at 2025-07-03T20:14:45Z with exit-code 0.
+...
+000 (4782.000.000) 2025-07-03 21:18:56 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4782.000.000) 2025-07-03 21:18:56 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_75>
+...
+040 (4782.000.000) 2025-07-03 21:18:56 Finished transferring input files
+...
+001 (4782.000.000) 2025-07-03 21:18:57 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_851391"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4782.000.000) 2025-07-03 21:19:06 Image size of job updated: 37500
+	33  -  MemoryUsage of job (MB)
+	33628  -  ResidentSetSize of job (KB)
+...
+040 (4782.000.000) 2025-07-03 23:14:23 Started transferring output files
+...
+040 (4782.000.000) 2025-07-03 23:14:23 Finished transferring output files
+...
+005 (4782.000.000) 2025-07-03 23:14:23 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	212996  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	212996  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35294    37500 835691056 
+	   GPUs                 :                           1 "GPU-17e5feeb"
+	   Memory (MB)          :       33       37     64313 
+	   TimeExecute (s)      :     6926                    
+	   TimeSlotBusy (s)     :     6927                    
+
+	Job terminated of its own accord at 2025-07-03T22:14:23Z with exit-code 0.
+...
+000 (4785.000.000) 2025-07-03 23:20:25 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4785.000.000) 2025-07-03 23:20:25 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_76>
+...
+040 (4785.000.000) 2025-07-03 23:20:25 Finished transferring input files
+...
+001 (4785.000.000) 2025-07-03 23:20:26 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_886457"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4785.000.000) 2025-07-03 23:20:35 Image size of job updated: 51792
+	51  -  MemoryUsage of job (MB)
+	51792  -  ResidentSetSize of job (KB)
+...
+006 (4785.000.000) 2025-07-04 04:11:08 Image size of job updated: 53644
+	53  -  MemoryUsage of job (MB)
+	53644  -  ResidentSetSize of job (KB)
+...
+006 (4785.000.000) 2025-07-04 04:16:09 Image size of job updated: 54996
+	54  -  MemoryUsage of job (MB)
+	54996  -  ResidentSetSize of job (KB)
+...
+006 (4785.000.000) 2025-07-04 04:21:09 Image size of job updated: 58440
+	58  -  MemoryUsage of job (MB)
+	58440  -  ResidentSetSize of job (KB)
+...
+006 (4785.000.000) 2025-07-04 04:31:11 Image size of job updated: 58580
+	58  -  MemoryUsage of job (MB)
+	58580  -  ResidentSetSize of job (KB)
+...
+006 (4785.000.000) 2025-07-04 04:41:11 Image size of job updated: 59000
+	58  -  MemoryUsage of job (MB)
+	59000  -  ResidentSetSize of job (KB)
+...
+040 (4785.000.000) 2025-07-04 11:22:24 Started transferring output files
+...
+040 (4785.000.000) 2025-07-04 11:22:24 Finished transferring output files
+...
+005 (4785.000.000) 2025-07-04 11:22:24 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:04, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:04, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1095659  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	1095659  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    36156    37500 835691056 
+	   GPUs                 :                           1 "GPU-17e5feeb"
+	   Memory (MB)          :       58       37     64313 
+	   TimeExecute (s)      :    43318                    
+	   TimeSlotBusy (s)     :    43319                    
+
+	Job terminated of its own accord at 2025-07-04T10:22:24Z with exit-code 0.
+...
+000 (4794.000.000) 2025-07-04 11:22:56 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4794.000.000) 2025-07-04 11:23:12 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_80>
+...
+040 (4794.000.000) 2025-07-04 11:23:12 Finished transferring input files
+...
+001 (4794.000.000) 2025-07-04 11:23:13 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_1002272"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4794.000.000) 2025-07-04 11:23:22 Image size of job updated: 37500
+	29  -  MemoryUsage of job (MB)
+	28900  -  ResidentSetSize of job (KB)
+...
+040 (4794.000.000) 2025-07-04 11:24:46 Started transferring output files
+...
+040 (4794.000.000) 2025-07-04 11:24:46 Finished transferring output files
+...
+005 (4794.000.000) 2025-07-04 11:24:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5557  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	5557  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1        32 
+	   Disk (KB)            :    35092    37500 835691056 
+	   GPUs                 :                           1 "GPU-17e5feeb"
+	   Memory (MB)          :       29       37     64313 
+	   TimeExecute (s)      :       93                    
+	   TimeSlotBusy (s)     :       94                    
+
+	Job terminated of its own accord at 2025-07-04T10:24:46Z with exit-code 0.
+...
+000 (4795.000.000) 2025-07-04 11:25:05 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4795.000.000) 2025-07-04 11:25:05 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_81>
+...
+040 (4795.000.000) 2025-07-04 11:25:06 Finished transferring input files
+...
+001 (4795.000.000) 2025-07-04 11:25:07 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_1003985"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4795.000.000) 2025-07-04 11:25:15 Image size of job updated: 37500
+	27  -  MemoryUsage of job (MB)
+	26712  -  ResidentSetSize of job (KB)
+...
+040 (4795.000.000) 2025-07-04 11:36:39 Started transferring output files
+...
+040 (4795.000.000) 2025-07-04 11:36:39 Finished transferring output files
+...
+005 (4795.000.000) 2025-07-04 11:36:39 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	286138  -  Run Bytes Sent By Job
+	35912000  -  Run Bytes Received By Job
+	286138  -  Total Bytes Sent By Job
+	35912000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1        32 
+	   Disk (KB)            : 35366       37500 835691056 
+	   GPUs                 :                           1 "GPU-17e5feeb"
+	   Memory (MB)          :    27          37     64313 
+	   TimeExecute (s)      :   692                       
+	   TimeSlotBusy (s)     :   694                       
+
+	Job terminated of its own accord at 2025-07-04T10:36:39Z with exit-code 0.
+...
+000 (4798.000.000) 2025-07-04 11:51:17 Job submitted from host: <194.82.242.129:9618?addrs=194.82.242.129-9618&alias=sparrow&noUDP&sock=schedd_1734_f54f>
+...
+040 (4798.000.000) 2025-07-04 11:51:17 Started transferring input files
+	Transferring to host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=slot1_3417_55e4_84>
+...
+040 (4798.000.000) 2025-07-04 11:51:17 Finished transferring input files
+...
+001 (4798.000.000) 2025-07-04 11:51:18 Job executing on host: <10.42.0.144:9618?addrs=10.42.0.144-9618&alias=flamingo&noUDP&sock=startd_1877_0b5a>
+	SlotName: slot1@flamingo
+	AvailableGPUs = { GPUs_GPU_17e5feeb }
+	CondorScratchDir = "/var/lib/condor/execute/dir_1020234"
+	Cpus = 32
+	Disk = 835691056
+	GPUs = 1
+	GPUs_GPU_17e5feeb = [ Id = "GPU-17e5feeb"; Capability = 8.6; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "17e5feeb-d8d8-a26f-198a-cec0d8166f5a"; ECCEnabled = false; DriverVersion = 12.0; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 48677; MaxSupportedVersion = 12000 ]
+	Memory = 64313
+...
+006 (4798.000.000) 2025-07-04 11:51:26 Image size of job updated: 37500
+	26  -  MemoryUsage of job (MB)
+	26452  -  ResidentSetSize of job (KB)
+...

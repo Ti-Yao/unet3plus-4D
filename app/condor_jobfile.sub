@@ -1,0 +1,10 @@
+    universe = vanilla
+    executable = /usr/bin/docker
+    arguments = "compose -f /home/tina/condor_jobs/slot1/4D/docker-compose.yml up --build"
+    stream_output = True
+    requirements = (Name == "slot1@emu")
+    RunAsOwner = True
+    output = condor_jobfile.out
+    error = condor_jobfile.error
+    log = condor_jobfile.log
+    queue

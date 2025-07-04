@@ -1,0 +1,50 @@
+Container 4D-SEG  Created
+4D-SEG  | 2025-07-03 22:33:08.754130: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+4D-SEG  | 2025-07-03 22:33:08.798768: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+4D-SEG  | 2025-07-03 22:33:08.798798: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+4D-SEG  | 2025-07-03 22:33:08.800091: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+4D-SEG  | 2025-07-03 22:33:08.806814: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+4D-SEG  | To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+4D-SEG  | [neptune] [warning] /app/training_utils.py:9: NeptuneDeprecationWarning: You're importing the Neptune client library via the deprecated `neptune.new` module, which will be removed in a future release. Import directly from `neptune` instead.
+4D-SEG  | 2025-07-03 22:33:14.461916: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 46864 MB memory:  -> device: 0, name: NVIDIA RTX A6000, pci bus id: 0000:3b:00.0, compute capability: 8.6
+4D-SEG  | 2025-07-03 22:33:29.071679: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 3 of 32
+4D-SEG  | 2025-07-03 22:33:50.745807: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 8 of 32
+4D-SEG  | 2025-07-03 22:34:00.874468: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 10 of 32
+4D-SEG  | 2025-07-03 22:34:19.582447: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 14 of 32
+4D-SEG  | 2025-07-03 22:34:29.789173: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 16 of 32
+4D-SEG  | 2025-07-03 22:34:41.411385: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 19 of 32
+4D-SEG  | 2025-07-03 22:35:00.551152: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 23 of 32
+4D-SEG  | 2025-07-03 22:35:19.199795: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 27 of 32
+4D-SEG  | 2025-07-03 22:35:33.662433: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 29 of 32
+4D-SEG  | 2025-07-03 22:35:54.588696: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:4: Filling up shuffle buffer (this may take a while): 31 of 32
+4D-SEG  | 2025-07-03 22:36:04.763860: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+4D-SEG  | Traceback (most recent call last):
+4D-SEG  |   File "/app/training_3+time.py", line 135, in <module>
+4D-SEG  |     main()
+4D-SEG  |   File "/app/training_3+time.py", line 92, in main
+4D-SEG  |     run[f'{model_name}'].download(f'models/{model_name}.h5')
+4D-SEG  |   File "/usr/local/lib/python3.11/dist-packages/neptune/handler.py", line 88, in inner_fun
+4D-SEG  |     return fun(self, *args, **kwargs)
+4D-SEG  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+4D-SEG  |   File "/usr/local/lib/python3.11/dist-packages/neptune/handler.py", line 668, in download
+4D-SEG  |     return self._pass_call_to_attr(function_name="download", destination=destination, progress_bar=progress_bar)
+4D-SEG  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4D-SEG  |   File "/usr/local/lib/python3.11/dist-packages/neptune/handler.py", line 748, in _pass_call_to_attr
+4D-SEG  |     return getattr(self._get_attribute(), function_name)(**kwargs)
+4D-SEG  |                    ^^^^^^^^^^^^^^^^^^^^^
+4D-SEG  |   File "/usr/local/lib/python3.11/dist-packages/neptune/handler.py", line 150, in _get_attribute
+4D-SEG  |     raise MissingFieldException(self._path)
+4D-SEG  | neptune.exceptions.MissingFieldException: 
+4D-SEG  | [95m
+4D-SEG  | ----MissingFieldException-------------------------------------------------------
+4D-SEG  | [0m
+4D-SEG  | The field "4DSEG-75" was not found.
+4D-SEG  | 
+4D-SEG  | There are two possible reasons:
+4D-SEG  |     - There is a typo in the path. Double-check your code for typos.
+4D-SEG  |     - You are fetching a field that another process created, but the local representation is not synchronized.
+4D-SEG  |     If you are sending metadata from multiple processes at the same time, synchronize the local representation before fetching values:
+4D-SEG  |         [96mrun.sync()[0m
+4D-SEG  | 
+4D-SEG  | [92mNeed help?[0m-> https://docs-legacy.neptune.ai/getting_help
+4D-SEG  | 
