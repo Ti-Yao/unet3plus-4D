@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 # Import custom modules
-import layer_util_4D_time
+import layer_util_4D
 
 tf.random.set_seed(489154)
 
